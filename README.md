@@ -157,10 +157,6 @@ I'm **Saud Satopay** — a full-stack developer and AI/ML engineer who likes tur
 
 <img src="https://streak-stats.demolab.com/?user=SaudSatopay&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=SaudSatopay&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="Trophies" />
-
 </div>
 
 <!-- ====================== FOOTER ====================== -->
