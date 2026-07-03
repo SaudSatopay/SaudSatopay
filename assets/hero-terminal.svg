@@ -1,0 +1,74 @@
+<svg viewBox="0 0 760 300" width="760" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal demo of Saud's systems">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="0.5" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#7dcfff"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <style>
+    .t { font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, Consolas, monospace; font-size: 14.5px; }
+    .title { font-size: 12.5px; fill: #565f89; }
+    .cmd { fill: #c0caf5; }
+    .dim { fill: #a9b1d6; }
+    .p { fill: #7aa2f7; font-weight: 600; }
+    .ok { fill: #9ece6a; }
+    .blue { fill: #7aa2f7; }
+    .purple { fill: #bb9af7; }
+    .cyan { fill: #7dcfff; }
+    .orange { fill: #ff9e64; }
+    .l1 { animation: l1 18s linear infinite; }
+    .l2 { animation: l2 18s linear infinite; }
+    .l3 { animation: l3 18s linear infinite; }
+    .l4 { animation: l4 18s linear infinite; }
+    .l5 { animation: l5 18s linear infinite; }
+    .l6 { animation: l6 18s linear infinite; }
+    .l7 { animation: l7 18s linear infinite; }
+    .cur { animation: blink 1.1s steps(1) infinite; }
+    @keyframes l1 { 0%, 2% { opacity: 0; } 4.5% { opacity: 1; } 90% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @keyframes l2 { 0%, 10% { opacity: 0; } 12.5% { opacity: 1; } 90% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @keyframes l3 { 0%, 18% { opacity: 0; } 20.5% { opacity: 1; } 90% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @keyframes l4 { 0%, 27% { opacity: 0; } 29.5% { opacity: 1; } 90% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @keyframes l5 { 0%, 35% { opacity: 0; } 37.5% { opacity: 1; } 90% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @keyframes l6 { 0%, 44% { opacity: 0; } 46.5% { opacity: 1; } 90% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @keyframes l7 { 0%, 54% { opacity: 0; } 56.5% { opacity: 1; } 90% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  </style>
+
+  <!-- window -->
+  <rect x="10" y="10" width="740" height="280" rx="12" fill="#1a1b27" stroke="url(#frame)" stroke-width="1.5" filter="url(#shadow)"/>
+  <!-- title bar -->
+  <path d="M10 22 a12 12 0 0 1 12 -12 h716 a12 12 0 0 1 12 12 v24 h-740 z" fill="#16161e"/>
+  <line x1="10" y1="46" x2="750" y2="46" stroke="#2f3549" stroke-width="1"/>
+  <circle cx="32" cy="28" r="6" fill="#f7768e"/>
+  <circle cx="52" cy="28" r="6" fill="#e0af68"/>
+  <circle cx="72" cy="28" r="6" fill="#9ece6a"/>
+  <text x="380" y="32" text-anchor="middle" class="t title">saud@github: ~</text>
+
+  <!-- session -->
+  <g class="l1">
+    <text x="28" y="80" class="t"><tspan class="p">&#10095;</tspan><tspan class="cmd" dx="8">./trinetra --live</tspan></text>
+  </g>
+  <g class="l2">
+    <text x="28" y="110" class="t"><tspan class="ok">&#10003;</tspan><tspan class="dim" dx="8">risk engine online &#183; p50 </tspan><tspan class="blue">50&#181;s</tspan><tspan class="dim"> &#183; </tspan><tspan class="purple">700k tags/s/core</tspan><tspan class="dim"> &#183; recall </tspan><tspan class="ok">100%</tspan></text>
+  </g>
+  <g class="l3">
+    <text x="28" y="140" class="t"><tspan class="p">&#10095;</tspan><tspan class="cmd" dx="8">bis-compass query "weldable structural steel"</tspan></text>
+  </g>
+  <g class="l4">
+    <text x="28" y="170" class="t"><tspan class="ok">&#10003;</tspan><tspan class="orange" dx="8">IS 2062</tspan><tspan class="dim"> &#183; Hit@3 </tspan><tspan class="blue">100%</tspan><tspan class="dim"> &#183; MRR@5 </tspan><tspan class="purple">0.93</tspan><tspan class="dim"> &#183; </tspan><tspan class="cyan">0.52s</tspan><tspan class="dim"> &#183; fully offline</tspan></text>
+  </g>
+  <g class="l5">
+    <text x="28" y="200" class="t"><tspan class="p">&#10095;</tspan><tspan class="cmd" dx="8">git log --oneline upstream/</tspan></text>
+  </g>
+  <g class="l6">
+    <text x="28" y="230" class="t"><tspan class="ok">&#10003;</tspan><tspan class="dim" dx="8">libheif </tspan><tspan class="purple">#1840 merged</tspan><tspan class="dim"> &#183; assimp </tspan><tspan class="purple">#6705 merged</tspan><tspan class="dim"> &#183; libavif </tspan><tspan class="cyan">#3272 in review</tspan></text>
+  </g>
+  <g class="l7">
+    <text x="28" y="262" class="t"><tspan class="p">&#10095;</tspan></text>
+    <rect x="46" y="250" width="9" height="16" fill="#c0caf5" class="cur"/>
+  </g>
+</svg>

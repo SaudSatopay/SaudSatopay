@@ -1,7 +1,7 @@
 <!-- ============================== HEADER ============================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:bb9af7,100:7dcfff&height=230&section=header&text=Saud%20Satopay&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%2FML%20Engineer%20%C2%B7%20Data%20%E2%86%92%20Model%20%E2%86%92%20API%20%E2%86%92%20Interface&descAlignY=57&descSize=20" width="100%" alt="Saud Satopay — AI/ML Engineer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:bb9af7,100:7dcfff&height=230&section=header&text=Saud%20Satopay&fontSize=64&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=AI%2FML%20Engineer%20%C2%B7%20Data%20%E2%86%92%20Model%20%E2%86%92%20API%20%E2%86%92%20Interface&descAlignY=57&descSize=20" width="100%" alt="Saud Satopay — AI/ML Engineer" />
 
 <a href="https://github.com/SaudSatopay">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Hybrid+RAG+%C2%B7+on-device+vision+%C2%B7+risk+engines;50%C2%B5s+decisions+%C2%B7+700k+signals%2Fsec+per+core;100%25+Hit%403+retrieval+%E2%80%94+fully+offline;Upstream+patches%3A+libheif+%C2%B7+assimp+%C2%B7+libavif;NIRMAN+2026+Winner+%F0%9F%8F%86" alt="What I build" />
@@ -33,6 +33,15 @@ I'm **Saud** — an AI/ML engineer who likes hard, load-bearing problems: retrie
 - 🎓 B.Tech Computer Engineering ('27) · Thane, India · open to AI/ML roles & collabs
 
 > **Data → Model → API → Interface** — I own the whole pipe.
+
+<div align="center">
+<br/>
+<img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/hero-terminal.svg" width="760" alt="Animated terminal running Saud's systems" />
+</div>
+
+<br/>
+
+<div align="center"><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/divider.svg" width="92%" alt="" /></div>
 
 <!-- ============================== FLAGSHIP ============================== -->
 ## `$ ls ./flagship-systems`
@@ -119,6 +128,10 @@ I'm **Saud** — an AI/ML engineer who likes hard, load-bearing problems: retrie
 
 <sub>**Also on the bench:** [FraudShield](https://claudy-coders.vercel.app) (fintech fraud detection) · [trader-performance-vs-market-sentiment](https://github.com/SaudSatopay/trader-performance-vs-market-sentiment) (211k-trade sentiment analysis) · [ride-a-go](https://github.com/SaudSatopay/ride-a-go) (Flutter group-riding app) · [WMS](https://github.com/SaudSatopay/WMS-Warehouse-Management-System) · [more →](https://github.com/SaudSatopay?tab=repositories)</sub>
 
+<br/><br/>
+
+<div align="center"><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/divider.svg" width="92%" alt="" /></div>
+
 <!-- ============================== OPEN SOURCE ============================== -->
 ## `$ gh pr list --author @me`
 
@@ -129,6 +142,10 @@ Security-hardening patches in C/C++ libraries that ship inside browsers, games a
 | <img src="https://img.shields.io/badge/merged-a371f7?style=flat-square" alt="merged" /> | [strukturag/libheif **#1840**](https://github.com/strukturag/libheif/pull/1840) | Enforces security limits on `icef` unit allocation — no unbounded memory from crafted HEIF files |
 | <img src="https://img.shields.io/badge/merged-a371f7?style=flat-square" alt="merged" /> | [assimp/assimp **#6705**](https://github.com/assimp/assimp/pull/6705) | Validates B3D chunk sizes against buffer & parent chunk — stops oversized allocations from malformed models |
 | <img src="https://img.shields.io/badge/in_review-3fb950?style=flat-square" alt="in review" /> | [AOMediaCodec/libavif **#3272**](https://github.com/AOMediaCodec/libavif/pull/3272) | Adopts the `__counted_by` bounds-safety model on core data buffers |
+
+<br/>
+
+<div align="center"><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/divider.svg" width="92%" alt="" /></div>
 
 <!-- ============================== STACK ============================== -->
 ## `$ cat tech-stack.txt`
@@ -147,21 +164,49 @@ Security-hardening patches in C/C++ libraries that ship inside browsers, games a
 
 <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,figma,vercel,netlify&theme=dark" alt="Git, GitHub, GitHub Actions, VS Code, Figma, Vercel, Netlify" />
 
+<br/>
+
+<div align="center"><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/divider.svg" width="92%" alt="" /></div>
+
 <!-- ============================== STATS ============================== -->
 ## `$ gh stats`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SaudSatopay&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="Saud's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaudSatopay&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&hide=html,css,scss" alt="Top languages" />
+<img src="https://github-profile-trophy.vercel.app/?username=SaudSatopay&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=8" alt="GitHub trophies" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=SaudSatopay&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=SaudSatopay&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SaudSatopay&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=ffffff&title_color=34548a&icon_color=5a4a78&text_color=343b58" alt="Saud's GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SaudSatopay&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&hide=html,css,scss" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaudSatopay&layout=compact&hide_border=true&langs_count=10&hide=html,css,scss&bg_color=ffffff&title_color=34548a&text_color=343b58" alt="Top languages" />
+</picture>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SaudSatopay&theme=tokyo-night&hide_border=true&area=true&radius=8" width="96%" alt="Contribution activity graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=SaudSatopay&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=SaudSatopay&hide_border=true&background=ffffff&ring=34548a&fire=f52a65&currStreakNum=343b58&sideNums=34548a&currStreakLabel=5a4a78&sideLabels=5a4a78&dates=9699a3&stroke=e6e9ef" alt="GitHub streak" />
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/output/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/output/profile-season-animate.svg" />
+  <img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/output/profile-night-rainbow.svg" width="96%" alt="3D contribution graph" />
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaudSatopay&theme=tokyo-night&hide_border=true&area=true&radius=8" />
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=SaudSatopay&hide_border=true&area=true&radius=8&bg_color=ffffff&color=343b58&line=34548a&point=5a4a78&area_color=dfe6f5" alt="Contribution activity graph" />
+</picture>
 
 <br/><br/>
 
@@ -175,6 +220,13 @@ Security-hardening patches in C/C++ libraries that ship inside browsers, games a
 
 <!-- ============================== FOOTER ============================== -->
 <div align="center">
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal" alt="Random dev quote" />
+</picture>
 
 <sub>⭐ If something here is useful, a star says thanks. Interesting problem? <a href="mailto:satopaysaud@gmail.com">satopaysaud@gmail.com</a></sub>
 
