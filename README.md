@@ -173,10 +173,6 @@ Security-hardening patches in C/C++ libraries that ship inside browsers, games a
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=SaudSatopay&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=8" alt="GitHub trophies" />
-
-<br/><br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=SaudSatopay&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=SaudSatopay&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=ffffff&title_color=34548a&icon_color=5a4a78&text_color=343b58" alt="Saud's GitHub stats" />
