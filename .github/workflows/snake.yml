@@ -31,7 +31,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
 
       - name: Collect assets
-        run: mv profile-3d-contrib/*.svg dist/
+        run: sudo mv profile-3d-contrib/*.svg dist/
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
