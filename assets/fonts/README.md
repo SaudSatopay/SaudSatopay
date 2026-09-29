@@ -1,0 +1,1 @@
+Static instances of [Fraunces](https://github.com/undercasetype/Fraunces), [Archivo](https://github.com/Omnibus-Type/Archivo) and [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono), all under the SIL Open Font License 1.1 (see the `OFL-*.txt` files). `scripts/build.py` subsets them per image and embeds them as WOFF2.
