@@ -499,8 +499,7 @@ def footer(theme):
 # ================================================================ live stats
 QUERY = """query($login:String!){user(login:$login){
   repositories(ownerAffiliations:OWNER,privacy:PUBLIC,isFork:false){totalCount}
-  pullRequests(states:MERGED){totalCount}
-  contributionsCollection{contributionCalendar{totalContributions
+  contributionsCollection{totalCommitContributions contributionCalendar{totalContributions
     weeks{contributionDays{date contributionCount}}}}}}"""
 
 
@@ -520,17 +519,17 @@ def fetch_stats(login):
         best = max(best, run)
     active = sum(1 for dd in days if dd["contributionCount"])
     return dict(total=cal["totalContributions"], active=active, repos=u["repositories"]["totalCount"],
-                prs=u["pullRequests"]["totalCount"], best=best,
+                commits=u["contributionsCollection"]["totalCommitContributions"], best=best,
                 weeks=[(wk["contributionDays"][0]["date"], sum(x["contributionCount"] for x in wk["contributionDays"]))
                        for wk in cal["weeks"]])
 
 
 def stats(theme, data):
     d = Svg(W, 330, theme, f"{data['total']} contributions in the last year, {data['repos']} public repositories, "
-                           f"{data['prs']} pull requests merged, {data['active']} active days")
+                           f"{data['commits']} commits, {data['active']} active days")
     figs = [(f"{data['total']:,}", "CONTRIBUTIONS", "last twelve months"),
+            (f"{data['commits']:,}", "COMMITS", "pushed in the same window"),
             (str(data["repos"]), "REPOSITORIES", "public, original work"),
-            (str(data["prs"]), "PULLS MERGED", "across GitHub"),
             (str(data["active"]), "DAYS SHIPPING", f"longest run: {data['best']} days")]
     col = W / 4
     for i, (num, lab, sub) in enumerate(figs):
