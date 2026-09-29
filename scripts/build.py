@@ -27,7 +27,7 @@ W = 900
 EASE = "cubic-bezier(.2,.72,.18,1)"
 
 # ---------------------------------------------------------------- palette
-# Mirrors the portfolio (saud-satopay.vercel.app): ink, parchment, vermilion.
+# Mirrors the portfolio (saudsatopay.netlify.app): ink, parchment, vermilion.
 THEMES = {
     "dark": dict(bg="#100e0a", card="#17140d", fg="#f1e6cd", dim="#b5aa8c", mute="#867c64",
                  hair="#2b2618", hair2="#443c28", accent="#ff4e1f", gilt="#c9a15a", grain=.07),
