@@ -60,6 +60,13 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/output/stats-dark.svg" /><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/output/stats-light.svg" width="100%" alt="Live GitHub numbers and a 52-week contribution ledger" /></picture>
 
+<br/><br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/sec-record-dark.svg" /><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/sec-record-light.svg" width="100%" alt="§ VII — On record" /></picture>
+
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/output/vinyl-dark.svg" /><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/output/vinyl-light.svg" width="100%" alt="The year in commits, pressed to a spinning vinyl record: one groove per day, the needle on today" /></picture>
+
 <br/><br/><br/>
 
 <a href="mailto:satopaysaud@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/footer-dark.svg" /><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/footer-light.svg" width="100%" alt="Got a problem that can't afford a guess? satopaysaud@gmail.com" /></picture></a>
