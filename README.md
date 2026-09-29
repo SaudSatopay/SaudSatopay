@@ -1,7 +1,7 @@
 <!-- Every image here is hand-set SVG rendered by scripts/build.py — see the colophon at the bottom. -->
 <div align="center">
 
-<a href="https://saud-satopay.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/hero-dark.svg" /><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/hero-light.svg" width="100%" alt="Saud Satopay — AI/ML engineer. I build AI for the moments that can't afford a guess." /></picture></a>
+<a href="https://saud-satopay.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/hero-dark.svg?v=2" /><img src="https://raw.githubusercontent.com/SaudSatopay/SaudSatopay/main/assets/hero-light.svg?v=2" width="100%" alt="Saud Satopay — AI/ML engineer. I build AI for the moments that can't afford a guess." /></picture></a>
 
 <br/><br/>
 
